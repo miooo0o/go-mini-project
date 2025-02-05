@@ -11,3 +11,13 @@ The goal is to reflect my personal needs as much as possible.
   - `config/` → Configuration handling (load/save settings)  
 - [ ] **Add `alarm` command** (Trigger alerts for scheduled tasks)  
 - [ ] **Add `remind` command** (Remind about upcoming tasks)
+
+
+```
+~/.tasks-cli/         // or <root>/.tasks-cli
+│── tasks             // executable
+│── config.json       // config file
+│── tasks.csv         // data base
+
+install.go	    		  -> create/generate "tasks-cli && files"
+```
